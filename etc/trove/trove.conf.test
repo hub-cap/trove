@@ -8,7 +8,7 @@ remote_swift_client = trove.tests.fakes.swift.fake_create_swift_client
 remote_cinder_client = trove.tests.fakes.nova.fake_create_cinder_client
 
 # This will remove some of the verbose logging when trying to diagnose tox issues
-#default_log_levels=routes.middleware=ERROR,trove.common.auth=WARN
+default_log_levels=routes.middleware=ERROR,trove.common.auth=WARN
 
 fake_mode_events = eventlet
 
